@@ -1,0 +1,33 @@
+body{
+    background-image:url("https://e0.pxfuel.com/wallpapers/500/998/desktop-wallpaper-ben-10-challenge-t-cs-ben-10-reboot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position-x: center;
+}
+#Container{
+    position: relative;
+    margin:auto;
+    height:450px;
+    width:350px;
+    border:5px solid black;
+}
+#Image{
+    position: relative;
+    max-height: 450px;min-height: 450px;
+    max-width: 350px;min-width: 350px;
+}
+#buttons{
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    height:100px;
+    width:550px;
+}
+#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8,#button9,#button10{
+    position: relative;
+    background-color: aliceblue;
+    height: 20px;
+    width:100px;
+    cursor: pointer;
+}
